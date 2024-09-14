@@ -11,7 +11,8 @@ const reactElement = {
     },
     // html-text
     children: `click to visit google wwwab,${userName}`
-    // Note-{userName}-varible can't take like {if(true)userName}-bcoz it is initialized inside object ,like reactElement in react 
+    // Note-{userName}-varible can't take like {if(true)userName}-bcoz it is initialized inside object ,like reactElement in react
+    //so - need to take evaluated value -no loop or itrations
     // this is ,how a variable append in dom 
 
 
